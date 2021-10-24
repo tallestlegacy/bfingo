@@ -7,7 +7,6 @@ Enjoy
 
 #### Usage
 ```sh
-
-bfi <filename>
+bfi-<platform> <filename>
 
 ```

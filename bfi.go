@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"io"
 	"os"
+
+	"github.com/tallestlegacy/bfingo/interpreter"
 )
 
 func main() {
@@ -29,5 +31,5 @@ func main() {
 		}
 	}
 
-	Interprete(bfSource)
+	interpreter.Interprete(bfSource)
 }
